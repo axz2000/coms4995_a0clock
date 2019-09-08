@@ -37,5 +37,5 @@ function draw() {
 
 	text('Author: Alan Zhang (axz2000)', 10, 30);
 	textSize(12);
-	text('Center image will not render in Chrome due to security settings', 10, 60);
+	text('My Clock!', cx, cy);
 }
