@@ -37,6 +37,6 @@ function draw() {
 	
 	fill(0);
 	text('Author: Alan Zhang (axz2000)', 10, 30);
-	textSize(24);
+	textSize(48);
 	text('☺️', cx-12, cy-12);
 }
