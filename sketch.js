@@ -1,9 +1,6 @@
 let cx, cy;
 let radius;
 
-var img; function preload(){
-	alan = loadImage('assets/alan.jpg');
-}
 function setup() {
 	createCanvas(800,800); // make an HTML canvas element width x height pixels
 	radius = min(width, height) * 0.8;
@@ -38,8 +35,7 @@ function draw() {
 	fill(50);
 	ellipse(cx,cy,radius/4,radius/4);
 
-	image(alan, cx, cy, 40,40);
 	text('Author: Alan Zhang (axz2000)', 10, 30);
-	textSize(12)
-	text('Center image will not render in Chrome due to security settings', 10, 60)
+	textSize(12);
+	text('Center image will not render in Chrome due to security settings', 10, 60);
 }
