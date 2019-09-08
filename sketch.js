@@ -38,5 +38,5 @@ function draw() {
 	fill(0);
 	text('Author: Alan Zhang (axz2000)', 10, 30);
 	textSize(24);
-	text('My Clock!', cx, cy);
+	text('☺️', cx-12, cy-12);
 }
