@@ -34,8 +34,9 @@ function draw() {
 
 	fill(50);
 	ellipse(cx,cy,radius/4,radius/4);
-
+	
+	fill(0);
 	text('Author: Alan Zhang (axz2000)', 10, 30);
-	textSize(12);
+	textSize(24);
 	text('My Clock!', cx, cy);
 }
